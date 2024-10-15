@@ -36,6 +36,12 @@ def fischer(kit):
         gAx = (sum((j-mAx)**2 for j in kit[i])/len(kit[i]))**0.5
         Ix = mAx**2/gAx**2
         ans.append(Ix)
+        if it < max1:
+            max1 = min(Is,max1)
+            i1 = i
+        if it <= max2:
+            max2 = min(Is,max2)
+            i2 = i
     return ans
 
 
