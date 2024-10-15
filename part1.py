@@ -8,7 +8,7 @@ def rotate():
                 b[j][i] = sp[i][j]
         data[key] = b
 
-dd
+
 data = {'A': [], 'B': [], 'C': []}
 with open('Nikita.csv') as f:
     keys = list(data.keys())
@@ -26,7 +26,6 @@ with open('Nikita.csv') as f:
     rotate()
 
 
-
 #метод фишера для 1 класса
 def fischer(kit):
     max1 = max2 = 10**10
@@ -41,12 +40,10 @@ def fischer(kit):
 
 
 for key in data.keys():
-    print(fischer(data.get(key)))
+    print(f'{key}:{fischer(data.get(key))}')
 
 
 
-
-# print(data)
 
 
 
