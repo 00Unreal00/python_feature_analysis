@@ -2,7 +2,7 @@ import numpy as np
 
 
 data = {'A': [], 'B': [], 'C': []}
-with open('1361_artem.csv') as f:
+with open('1361_e_artem.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0

@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plot
 data = {'A': [], 'B': [], 'C': []}
-with open('1361_artem.csv') as f:
+with open('4672_e.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
@@ -27,6 +27,7 @@ def fischer_tree_class(class1, class2, class3):
     mean3 = np.mean(class3, axis=0)
     std3 = np.std(class3, axis=0)
     ix = (mean1 - mean2 - mean3) ** 2 / (std1 ** 2 + std2 ** 2 + std3 ** 2)
+    print(ix)
     indexix = np.argsort(ix)
     return [indexix[-1]+1, ix[indexix[-1]], indexix[-2]+1, ix[indexix[-2]]]
 

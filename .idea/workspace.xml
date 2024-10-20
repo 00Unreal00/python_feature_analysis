@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
-      <change afterPath="$PROJECT_DIR$/Sonya.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ее.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1371_e.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1462_e.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2473_e.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2572_e.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2631_e.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nikita.csv" beforeDir="false" afterPath="$PROJECT_DIR$/4731_my.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sonya_csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/1361_artem.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1361_artem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/1361_e_artem.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729451309075</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
+      <option name="closed" value="true" />
+      <created>1729461094439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729461094439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
