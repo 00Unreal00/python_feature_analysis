@@ -2,7 +2,7 @@ import numpy as np
 
 
 data = {'A': [], 'B': [], 'C': []}
-with open('artem.csv') as f:
+with open('1361_artem.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
@@ -12,7 +12,6 @@ with open('artem.csv') as f:
             count = line[0]
             data.get(keys[change_pos]).append(line[1:])
         else:
-            data[keys[change_pos]] = np.array(data.get(keys[change_pos]))
             count = 0
             change_pos += 1
             data.get(keys[change_pos]).append(line[1:])

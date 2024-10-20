@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="Init">
+    <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
+      <change afterPath="$PROJECT_DIR$/Sonya.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ее.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nikita.csv" beforeDir="false" afterPath="$PROJECT_DIR$/4731_my.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sonya_csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/1361_artem.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728975658707</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
+      <option name="closed" value="true" />
+      <created>1729451254080</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729451254081</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
+      <option name="closed" value="true" />
+      <created>1729451309075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729451309075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting" />
   </component>
 </project>

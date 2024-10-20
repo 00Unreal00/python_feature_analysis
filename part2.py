@@ -12,7 +12,7 @@ def rotate():
 
 
 training_data = {'A': [], 'B': [], 'C': []}
-with open('Nikita.csv') as f:
+with open('4731_my.csv') as f:
     keys = list(training_data.keys())
     change_pos = 0
     count = 0
