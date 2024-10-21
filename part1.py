@@ -1,6 +1,5 @@
 import numpy as np
 
-
 data = {'A': [], 'B': [], 'C': []}
 with open('1361_e_artem.csv') as f:
     keys = list(data.keys())
@@ -17,12 +16,14 @@ with open('1361_e_artem.csv') as f:
             data.get(keys[change_pos]).append(line[1:])
     for i in keys:
         data[i] = np.array(data.get(i))
+
+
 def fischer_one_class(one_class):
     # axis=0 это столбцы axis=1 строки sum сумма
-    mean = np.mean(one_class, axis=0) # среднее значение по столбцам
-    std = np.std(one_class, axis=0) # среднеквадратическое отклонение по столбцам оказывается это СТАНДАРТНОЕ отклонение
-    ix = mean**2/std**2 # информативность
-    indexix = np.argsort(ix)# сортирует массив и выдаёт список индексов в каком порядке отсортировалось
+    mean = np.mean(one_class, axis=0)  # среднее значение по столбцам
+    std = np.std(one_class, axis=0)  # среднеквадратическое отклонение по столбцам оказывается это СТАНДАРТНОЕ отклонение
+    ix = mean ** 2 / std ** 2  # информативность
+    indexix = np.argsort(ix)  # сортирует массив и выдаёт список индексов в каком порядке отсортировалось
     # вар1
     # return int(indexix[0]), float(ix[indexix[0]]), int(indexix[1]), float(ix[indexix[1]]) кортеж получается
     # вар2
@@ -32,10 +33,8 @@ def fischer_one_class(one_class):
     # i2 = indexix[1]
     # return min1, min2, i1, i2
     # вар3
-    return [indexix[0]+1, ix[indexix[0]], indexix[1]+1, ix[indexix[1]]]
+    return [indexix[0] + 1, ix[indexix[0]], indexix[1] + 1, ix[indexix[1]]]
 
 
 u = fischer_one_class(data.get("A"))
 print(f"Первый самый малый признак: {u[0]}, второй малый признак: {u[2]}")
-
-

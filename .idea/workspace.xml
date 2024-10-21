@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
-      <change afterPath="$PROJECT_DIR$/1371_e.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1462_e.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2473_e.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2572_e.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2631_e.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1361_artem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/1361_e_artem.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1361_e_artem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/1361_e_artem.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ее.py" beforeDir="false" afterPath="$PROJECT_DIR$/ее.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.part1.executor": "Run",
-    "Python.part2.executor": "Run",
-    "Python.part3.executor": "Run",
-    "Python.ее.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Kirill/PycharmProjects/python_feature_analysis"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.part1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ее.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kirill/PycharmProjects/python_feature_analysis&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kirill\PycharmProjects\python_feature_analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part3">
+  <component name="RunManager" selected="Python.part2">
     <configuration name="ее" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_feature_analysis" />
       <option name="ENV_FILES" value="" />
@@ -160,9 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part2" />
         <item itemvalue="Python.part3" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.part2" />
         <item itemvalue="Python.ее" />
       </list>
     </recent_temporary>
@@ -239,8 +236,19 @@
       <option name="project" value="LOCAL" />
       <updated>1729461094439</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
+      <option name="closed" value="true" />
+      <created>1729462050171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729462050171</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

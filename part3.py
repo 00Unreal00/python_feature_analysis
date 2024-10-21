@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plot
 data = {'A': [], 'B': [], 'C': []}
-with open('4672_e.csv') as f:
+with open('4731_my.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
@@ -11,7 +11,6 @@ with open('4672_e.csv') as f:
             count = line[0]
             data.get(keys[change_pos]).append(line[1:])
         else:
-            data[keys[change_pos]] = np.array(data.get(keys[change_pos]))
             count = 0
             change_pos += 1
             data.get(keys[change_pos]).append(line[1:])
