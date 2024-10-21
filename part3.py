@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plot
 data = {'A': [], 'B': [], 'C': []}
-with open('4731_my.csv') as f:
+with open('1361_e_artem.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
@@ -44,4 +44,5 @@ y2 = list(data.get("C")[:, u[2]-1])
 plot.scatter(x2, y2, c='yellow')
 plot.xlabel(f"Признак {u[0]}")
 plot.ylabel(f"Признак {u[2]}")
+
 plot.show()

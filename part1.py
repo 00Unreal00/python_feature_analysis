@@ -1,12 +1,13 @@
 import numpy as np
 
 data = {'A': [], 'B': [], 'C': []}
-with open('1361_e_artem.csv') as f:
+with open('5722.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
-    for _ in range(1, 16):
+    for _ in range(1, 46):
         line = list(map(int, f.readline().split()))
+
         if line[0] > count:
             count = line[0]
             data.get(keys[change_pos]).append(line[1:])
@@ -22,7 +23,9 @@ def fischer_one_class(one_class):
     # axis=0 это столбцы axis=1 строки sum сумма
     mean = np.mean(one_class, axis=0)  # среднее значение по столбцам
     std = np.std(one_class, axis=0)  # среднеквадратическое отклонение по столбцам оказывается это СТАНДАРТНОЕ отклонение
+    print(std)
     ix = mean ** 2 / std ** 2  # информативность
+    print(ix)
     indexix = np.argsort(ix)  # сортирует массив и выдаёт список индексов в каком порядке отсортировалось
     # вар1
     # return int(indexix[0]), float(ix[indexix[0]]), int(indexix[1]), float(ix[indexix[1]]) кортеж получается
@@ -36,5 +39,5 @@ def fischer_one_class(one_class):
     return [indexix[0] + 1, ix[indexix[0]], indexix[1] + 1, ix[indexix[1]]]
 
 
-u = fischer_one_class(data.get("A"))
+u = fischer_one_class(data.get("C"))
 print(f"Первый самый малый признак: {u[0]}, второй малый признак: {u[2]}")

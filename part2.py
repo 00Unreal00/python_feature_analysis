@@ -1,6 +1,6 @@
 from collections import Counter
 import numpy as np
-import matplotlib.pyplot as plot
+
 
 
 data = {'A': [], 'B': [], 'C': []}
