@@ -2,7 +2,7 @@ from collections import Counter
 import numpy as np
 
 data = {'A': [], 'B': [], 'C': []}
-with open('4731_my.csv') as f:
+with open('../4731_my.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
