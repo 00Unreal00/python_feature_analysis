@@ -57,6 +57,14 @@ def finder():
 
 
 ans = []
-for i in range(7):
-    ans.append(int(input('Введите значение:')))
-    finder()
+
+for i in range(len(data.get("A")[0])):
+    try:
+        a = input('Введите значение:')
+        if a == "стоп":
+            quit()
+        ans.append(int(a))
+        finder()
+    except ValueError:
+        print("Введено некорректное значение")
+
