@@ -1,6 +1,6 @@
-file_open = open('5722.csv')
+file_open = open('data/5722.csv')
 c_pr = []
-with open('5722.csv') as f:
+with open('data/5722.csv') as f:
     for i in range(1, 46):
         if i < 31:
             f.readline()

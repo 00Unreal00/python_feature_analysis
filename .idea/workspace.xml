@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
-      <change afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sonya.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1_with_commet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2_with_comment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sonya.csv" beforeDir="false" afterPath="$PROJECT_DIR$/5722.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1361_e_artem.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/1361_e_artem.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1371_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/1371_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1462_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/1462_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2473_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2473_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2572_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2572_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2631_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2631_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3573_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/3573_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3672_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/3672_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4511_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/4511_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4672_e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/4672_e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5722.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/5722.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee.py" beforeDir="false" afterPath="$PROJECT_DIR$/eee.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/part1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ее.py" beforeDir="false" afterPath="$PROJECT_DIR$/ее.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +67,7 @@
   "keyToString": {
     "Python.1.executor": "Run",
     "Python.Sonya.executor": "Run",
+    "Python.eee.executor": "Run",
     "Python.part1.executor": "Run",
     "Python.part2.executor": "Run",
     "Python.part3.executor": "Run",
@@ -68,8 +81,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kirill\PycharmProjects\python_feature_analysis" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\PycharmProjects\python_feature_analysis" />
+      <recent name="C:\Users\Kirill\PycharmProjects\python_feature_analysis\data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.eee">
+  <component name="RunManager" selected="Python.part1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_feature_analysis" />
       <option name="ENV_FILES" value="" />
@@ -182,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.eee" />
         <item itemvalue="Python.part1" />
+        <item itemvalue="Python.part2" />
+        <item itemvalue="Python.eee" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.part3" />
-        <item itemvalue="Python.part2" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729522895125</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting">
+      <option name="closed" value="true" />
+      <created>1729545676716</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729545676716</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
