@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="part1_with_commet.py --&gt; data">
+    <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="part2_tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block_diagram/part2_tree.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/block_diagram/part2_tree.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1.executor": "Run",
+    "Python.12.executor": "Run",
     "Python.Sonya.executor": "Run",
     "Python.eee.executor": "Run",
     "Python.part1.executor": "Run",
@@ -70,7 +73,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.part2">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_feature_analysis" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,10 +186,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.part2" />
+        <item itemvalue="Python.12" />
+        <item itemvalue="Python.part3" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.eee" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.part3" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729630001367</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="part2_tree">
+      <option name="closed" value="true" />
+      <created>1729634499931</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729634499931</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -332,6 +343,7 @@
     <MESSAGE value="Part1 = Ready&#10;Part2 = No&#10;Part3 = Waiting" />
     <MESSAGE value="Part1 = Ready all&#10;Part2 = Waiting&#10;Part3 = Waiting" />
     <MESSAGE value="part1_with_commet.py --&gt; data" />
-    <option name="LAST_COMMIT_MESSAGE" value="part1_with_commet.py --&gt; data" />
+    <MESSAGE value="part2_tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="part2_tree" />
   </component>
 </project>

@@ -32,7 +32,8 @@ def finder():
     for key in keys:
         mass = data.get(key)
         for line in mass:
-            if check(ans, line):
+            flag = check(sings, line)
+            if flag:
                 count_data[key] += 1
     b = list(count_data.values())
     if sum(b) == 0:
@@ -56,14 +57,14 @@ def finder():
         print("Это все классы")
 
 
-ans = []
+sings = []
 
 for i in range(len(data.get("A")[0])):
     try:
-        a = input('Введите значение:')
-        if a == "стоп":
+        sing = input('Введите значение признака:')
+        if sing == "стоп":
             quit()
-        ans.append(int(a))
+        sings.append(int(sing))
         finder()
     except ValueError:
         print("Введено некорректное значение")
