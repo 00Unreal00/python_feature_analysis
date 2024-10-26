@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd1ed660-b02a-4de2-9519-bf3d937d9d62" name="Changes" comment="part2_tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block_diagram/part2_tree.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/block_diagram/part2_tree.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/part3.py" afterDir="false" />
     </list>
@@ -48,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.executor": "Run",
-    "Python.12.executor": "Run",
-    "Python.Sonya.executor": "Run",
-    "Python.eee.executor": "Run",
-    "Python.part1.executor": "Run",
-    "Python.part2.executor": "Run",
-    "Python.part3.executor": "Run",
-    "Python.ее.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Kirill/PycharmProjects/python_feature_analysis"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sonya.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ее.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kirill/PycharmProjects/schoolegeinf&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kirill\PycharmProjects\python_feature_analysis" />
@@ -72,7 +71,7 @@
       <recent name="C:\Users\Kirill\PycharmProjects\python_feature_analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part2">
+  <component name="RunManager" selected="Python.part3">
     <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_feature_analysis" />
       <option name="ENV_FILES" value="" />
@@ -185,9 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part3" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.12" />
-        <item itemvalue="Python.part3" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.eee" />
       </list>
@@ -321,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729634499931</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="part2_tree">
+      <option name="closed" value="true" />
+      <created>1729717877065</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729717877065</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">

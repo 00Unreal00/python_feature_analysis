@@ -21,7 +21,8 @@ with open('4731_my.csv') as f:
     for i in keys:
         data[i] = np.array(data.get(i))
 
-
+'''created by 00Unreal00
+'''
 def check(l1, l2):
     return not Counter(l1) - Counter(l2)
 
