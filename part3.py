@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plot
 from collections import Counter
 data = {'A': [], 'B': [], 'C': []}
-with open('4731_my.csv') as f:
+with open('data/5722.csv') as f:
     keys = list(data.keys())
     change_pos = 0
     count = 0
@@ -93,11 +93,10 @@ def distance(pnt1, pnt2):
 points = np.vstack([np.column_stack([xa, ya]), np.column_stack([xb, yb]), np.column_stack([xc, yc])])
 
 
-def knn(point, k=5):  # k nearest neighbors - к ближайших соседей
+def knn(point, k=3):  # k nearest neighbors - к ближайших соседей
     cls = np.array(['A'] * len(data.get("A")) + ['B']*len(data.get("B")) + ['C']*len(data.get("C")))
     dist = [[distance(point, p), cl] for p, cl in zip(points, cls)]
     dist = sorted(dist, key=lambda x: x[0])[1:k+1]
-    print(dist)
     dist = [i[1] for i in dist]
     print(Counter(dist).most_common()[0][0])
-knn(np.array([15,30]))
+knn(np.array([50,51]))
