@@ -25,7 +25,7 @@ with open('../4731_my.csv') as f:
 def check(l1, l2):
     return not Counter(l1) - Counter(l2)
 
-
+#тест
 """
 def finder():
     global ca,cb,cc
