@@ -32,3 +32,4 @@ def fischer_one_class(one_class):
 
 fish = fischer_one_class(data.get("A"))
 print(f"Первый самый малый признак: {fish[0]}, второй малый признак: {fish[2]}")
+print(3467890)
